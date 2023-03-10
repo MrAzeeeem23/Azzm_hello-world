@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Righteous', cursive;
+  font-style: italic;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgba(224, 255, 252, 0);
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  float: right;
+  width: 30%;
+}
+nav li{
+  list-style: none;
+}
+nav a{
+  color: rgb(88, 0, 170);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 14px 16px;
+  font-style: normal;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.head1{
+  font-style: normal;
+}
+
+a:hover{
+  color: rgb(181, 142, 255);
+}
+
+.bodytext{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(88, 0, 170);
+}
+
+.bodytext a{
+  text-decoration: none;
+
+}
+
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white; /* box-shadow: 0 0 10px rgb(238, 238, 238); */
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-position: right center; 
+}
+
+button{
+  background-image: linear-gradient(to right, #4400ff 0%, #902fff 51%, #4400ff 100%);
+}
+@media screen and (max-width: 600px) {
+  .head1{
+    display: flex;
+  }
+  nav{
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(224, 255, 252, 0);
+  }
+  nav ul{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    float: none;
+    width: 30%;
+  }
+  nav a{
+    letter-spacing: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 5px;
+    font-style: normal;
+    font-family: 'Noto Sans', sans-serif;
+  }
+}
+
+/* about-section */
+
+.container{
+  width: 60%;
+  margin: 30px;
+  padding: 20px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.About-Head{
+  font-style: normal;
+}
+
+.divimg{ 
+  width: 400px;
+  margin: 60px;
+  padding: 10px;
+  float: right;
+}
+
+.img1{ 
+  position: absolute;
+  width: 400px;
+}
+
+.about-P1{
+  height: 100%;
+  width: auto;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: rgb(247, 247, 188);
+  font-family: 'Lexend', sans-serif;
+  font-style: normal;
+  color: rgb(30, 0, 65);
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  .about-P1{
+    text-align: left;
+    padding: 12px;
+    border-radius: 12px;
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    color: rgb(30, 0, 65);
+    line-height: 1.5;
+  }
+  .container {
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    
+   }
+}
