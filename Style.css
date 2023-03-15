@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Righteous', cursive;
+  box-sizing: border-box;
+  
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url(about/Picsart_23-03-14_20-51-26-540.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container{
+  padding: 20px 5%;
+}
+
+.logo{
+  width: 200px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+@media(max-width: 600px){
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 5px;
+  }
+  
+  nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  nav h1{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.head1{
+  font-style: normal;
+  font-size: 40px;
+}
+
+a{
+  transition: 0.3s;
+}
+
+a:hover{
+  color: #ff4747;
+}
+
+.bodytext{
+  width: 100%;
+  position: absolute;
+  text-align: left;
+  top: 40%;
+  padding: 10px 5%;
+  color:#ffffff;
+}
+
+#h1A{
+  font-size: 55px;
+}
+
+.bodytext a{
+  text-decoration: none;
+}
+
+.bodytext button{
+  width: 200px;
+  padding: 15px 0;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-style: italic;
+}
+
+button:hover{
+  background-position: right center; 
+  box-shadow: 0 0 8px #11019c;
+}
+
+button{
+  background-image: linear-gradient(to right, rgb(24, 33, 53) 0%, rgb(15, 29, 43) 51%, rgb(75, 61, 151) 100%);
+}
+
+@media(max-width: 600px){
+  .bodytext{
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    top: 25%;
+    padding: 10px 5%;
+    color:#ffffff;
+}
+#h1A{
+  font-size: 44px;
+}
+}
+
+/* ----------------------proj-section--------------------- */
+
+.proj-text{
+  text-align: center;
+  margin: 20px;
+  padding: 10px 5%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.proj-text button{
+  width: 200px;
+  padding: 15px 0;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+/* ---------------------about-section--------------------- */
+
+
+.container2{
+  padding: 10px 10%;
+}
+
+.About-Head{
+  font-style: normal;
+  font-size: 50px;
+}
+
+.divimg{ 
+  width: 400px;
+  margin: 60px;
+  padding: 10px;
+  float: right;
+}
+
+img{ 
+  width: 400px;
+}
+
+@media(max-width: 600px){
+  img{ 
+    width: 300px;
+  }
+}
+
+.about-P1{
+  width: 80%;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  color: rgb(251, 253, 255);
+  line-height: 1.5;
+  background-color: rgba(25, 25, 54, 0.542);
+  box-shadow: 0 0 8px #15183f;
+  border-radius: 20px;
+}
+
+.mail{
+  padding: 30px 10px;
+}
+
+.maillink{
+  padding: 10px;
+  margin:  10px;
+  font-size: 30px;
+  border: 2px solid white;
+  transition: 0.5s;
+  background: none;
+  color: #ffffff;
+}
+.maillink:hover{
+  background-color: #ffffff;
+}
+
+@media(max-width: 600px) {
+  .about-P1{
+    width: 100%;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(251, 253, 255);
+    line-height: 1.5;
+  }
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 80px; /* height of the footer */
+  background-color: rgb(5, 9, 31);
+  color: rgb(255, 41, 41);
+  padding: 20px;
+  text-align: center;
+}
+
